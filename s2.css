@@ -533,4 +533,61 @@ nav ul li a:hover {
     height: auto; 
     border-radius: 8px;
 }
+.follow-me {
+    background: #fff; /* White background for the section */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px;
+}
+
+.follow-me h2 {
+    font-size: 24px;
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 10px;
+}
+
+.follow-me p {
+    font-size: 16px;
+    color: #666; /* Lighter grey color for the paragraph */
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px; /* Width of the social media icon */
+    height: 40px; /* Height of the social media icon */
+    border-radius: 50%; /* Circle shape */
+    overflow: hidden; /* Ensure image fits inside the circle */
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the circle */
+    display: block;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998; /* Facebook color */
+}
+
+.social-icon.twitter {
+    background-color: #1da1f2; /* Twitter color */
+}
+
+.social-icon.instagram {
+    background-color: #e4405f; /* Instagram color */
+}
+
+.social-icon.youtube {
+    background-color: #ff0000; /* YouTube color */
+}
 
